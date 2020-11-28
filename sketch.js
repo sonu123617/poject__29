@@ -13,7 +13,7 @@ var ball ;
 var rope;
 
 function preload(){
-  bg = loadImage("sprites/BG.jpg");
+  bg = loadImage("BG.jpg");
 }
 
 function setup() {

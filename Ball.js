@@ -10,7 +10,7 @@ class Ball{
         this.y=y;
         this.r=r;
         this.body = Bodies.circle(x,y,r,ops);
-        this.image = loadImage("sprites/Ball.png");
+        this.image = loadImage("Ball.png");
         World.add(world,this.body);
     }
     display(){

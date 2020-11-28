@@ -11,7 +11,7 @@ class Ground {
         this.width = width;
         this.height = height;
         this.body = Bodies.rectangle(x,y,width,height,ops);
-        this.image = loadImage("sprites/ground.png");
+        this.image = loadImage("ground.png");
         World.add(world,this.body);
     }
 
